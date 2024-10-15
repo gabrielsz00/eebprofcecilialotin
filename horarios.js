@@ -1,6 +1,6 @@
 const select = document.getElementById('select');
 
-const todos = document.getElementById('todos');
+const todos = document.getElementsByClassName('fotohorario');
 
 const sexto = document.getElementById('6o');
 const setimo = document.getElementById('7o');
