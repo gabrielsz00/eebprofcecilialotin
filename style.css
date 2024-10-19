@@ -24,17 +24,6 @@ header img{
     width: 60px;
 }
 
-#titulo h1 p{
-    padding: 0;
-    margin: 0;
-}
-
-#importante{
-    display: flex;
-    justify-content: flex-start;
-    flex: 20%;
-    align-items: center;
-}
 
 
 nav{
@@ -69,6 +58,19 @@ nav a:hover{
     background-color: rgb(50, 50, 85);
     padding: 10px 20px;
     height: 150%;
+}
+
+
+#titulo h1 p{
+    padding: 0;
+    margin: 0;
+}
+
+#importante{
+    display: flex;
+    justify-content: flex-start;
+    flex: 20%;
+    align-items: center;
 }
 
 #titulopagina{
@@ -130,8 +132,8 @@ footer{
 }
 
 .foto{
-    width: 50%;
-    height: 500px;
+    width: 70%;
+
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -148,17 +150,7 @@ footer{
 
 .foto{
     width: 100%;
-    height: 350px;
 
-}
-
-}
-
-@media (max-width: 1300px) {
-
-.foto{
-    width: 100%;
-    height: 500px;
 
 }
 
