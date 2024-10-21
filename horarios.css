@@ -1,7 +1,9 @@
+
 header{
     background-color: rgb(40, 40, 71);
     color: white;
 display: flex;
+
 
 }
 
@@ -9,38 +11,6 @@ display: flex;
 
 header img{
     width: 60px;
-}
-
-#importante img{
-    transition: 1s ease-in-out;
-}
-
-#importante h1{
-    transition: 1s ease-in-out;
-}
-#importante img:hover{
-    width: 150px;
-    
-}
-
-#importante h1:hover{
-    font-size: 40px;
-    
-}
-
-
-
-#titulo h1 p{
-    padding: 0;
-    margin: 0;
-}
-
-#importante{
-    display: flex;
-    justify-content: flex-start;
-    flex: 20%;
-    align-items: center;
-
 }
 
 
@@ -77,9 +47,39 @@ nav a:hover{
     background-color: rgb(50, 50, 85);
     padding: 10px 20px;
     height: 150%;
-
 }
 
+#importante img{
+    transition: 1s ease-in-out;
+}
+
+#importante h1{
+    transition: 1s ease-in-out;
+}
+#importante img:hover{
+    width: 150px;
+    
+}
+
+#importante h1:hover{
+    font-size: 40px;
+    
+}
+
+
+
+#titulo h1 p{
+    padding: 0;
+    margin: 0;
+}
+
+#importante{
+    display: flex;
+    justify-content: flex-start;
+    flex: 20%;
+    align-items: center;
+
+}
 
 
 
@@ -88,6 +88,7 @@ nav a:hover{
     width: 100%;
     padding: 5px;
     box-shadow: 0px 0px 2px black;
+    transition: 500ms;
 }
 
 
@@ -123,7 +124,7 @@ font-size: 20px;
 
 select:hover{
 
-    height: 70px;
+    height: 62px;
     padding: 5px;
 font-size: 20px;
     background-color: rgba(0, 0, 0, .8);
@@ -146,4 +147,17 @@ font-size: 20px;
     background-color: rgb(12, 4, 31);
     margin-top: 0;
     box-shadow: 1px 1px 5px black;
+}
+
+@media (max-width: 700px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+
+
 }
