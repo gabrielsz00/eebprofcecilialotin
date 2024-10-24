@@ -60,18 +60,18 @@ nav a:hover{
     height: 150%;
 }
 
-
-#titulo h1 p{
-    padding: 0;
-    margin: 0;
-}
-
 #importante{
     display: flex;
     justify-content: flex-start;
     flex: 20%;
     align-items: center;
 }
+
+#titulo h1 p{
+    padding: 0;
+    margin: 0;
+}
+
 
 #titulopagina{
     text-align: center;

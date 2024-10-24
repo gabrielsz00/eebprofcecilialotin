@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(195, 255, 255);
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: rgb(40, 40, 71);
+    color: white;
+    display: flex;
+}
+
+header img{
+    width: 60px;
+}
+
+nav{
+    flex: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav a{
+    width: 100px;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    transition: 1s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: rgb(28, 28, 53);
+    border-radius: 10px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 50, 85);
+    padding: 10px 20px;
+    height: 150%;
+}
+
+#titulo h1 p{
+    padding: 0;
+    margin: 0;
+}
+
+#importante{
+    display: flex;
+    justify-content: flex-start;
+    flex: 20%;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    nav{
+        flex-direction: column;
+    }
+}
+
+select{
+    height: 60px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    transition: 500ms;
+}
+
+select:hover{
+    height: 62px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    border-radius: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilos para a lista de alunos */
+#listaAlunos {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(40, 40, 71);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#listaAlunos li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: rgb(28, 28, 53);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#listaAlunos li:hover {
+    background-color: rgb(50, 50, 85);
+}
