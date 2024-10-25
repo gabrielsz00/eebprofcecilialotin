@@ -52,6 +52,15 @@ nav a:hover{
     height: 150%;
 }
 
+#titulopagina{
+    text-align: center;
+    color: white;
+    background-color: rgb(12, 4, 31);
+    margin-top: 0;
+    box-shadow: 1px 1px 5px black;
+    width: 100%;
+}
+
 #titulo h1 p{
     padding: 0;
     margin: 0;
@@ -122,4 +131,16 @@ main{
 
 #listaAlunos li:hover {
     background-color: rgb(50, 50, 85);
+}
+
+@media (max-width: 700px) {
+    nav{
+        flex-direction: column;
+        height: 210px;
+    }
+
+    nav a{
+        margin-top: 2px;
+        
+    }
 }

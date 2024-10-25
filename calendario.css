@@ -99,10 +99,18 @@ main {
     padding: 20px;
 }
 
-h1#titulopagina {
-    font-size: 32px;
-    color: rgb(40, 40, 71);
-    margin: 20px 0;
+#titulo h1 p{
+    padding: 0;
+    margin: 0;
+}
+
+
+#titulopagina{
+    text-align: center;
+    color: white;
+    background-color: rgb(12, 4, 31);
+    margin-top: 0;
+    box-shadow: 1px 1px 5px black;
 }
 
 #calendario {
@@ -174,5 +182,17 @@ tbody td:hover {
 
     tbody td {
         height: 60px; /* Ajusta a altura das células ainda mais para dispositivos pequenos */
+    }
+}
+
+@media (max-width: 700px) {
+    nav{
+        flex-direction: column;
+        height: 210px;
+    }
+
+    nav a{
+        margin-top: 2px;
+        
     }
 }

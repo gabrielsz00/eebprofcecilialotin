@@ -14,13 +14,7 @@ const terceiro = document.getElementById('3m');
 
 
 
-    sexto.style.display = 'none'
-    setimo.style.display = 'none'
-    oitavo.style.display = 'none'
-    nono.style.display = 'none'
-    primeiro.style.display = 'none'
-    segundo.style.display = 'none'
-    terceiro.style.display = 'none'
+
     
 
 select.addEventListener('change', () =>{

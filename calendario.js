@@ -1,10 +1,11 @@
 // Lista de eventos
 const eventos = [
-    { dia: 2, mes: 10, ano: 2024, titulo: 'Reunião de Pais' },
-    { dia: 12, mes: 10, ano: 2024, titulo: 'Feriado - Dia das Crianças' },
-    { dia: 21, mes: 10, ano: 2024, titulo: 'Condsselho de Classe' },
-    { dia: 20, mes: 10, ano: 2024, titulo: 'Conselho de Classe' },
-    { dia: 31, mes: 10, ano: 2024, titulo: 'Pascoa' }
+    
+    { dia: 12, mes: 10, ano: 2024, titulo: 'Nossa Senhora Aparecida' },
+    { dia: 15, mes: 10, ano: 2024, titulo: 'Dia do Professor' },
+    { dia: 17, mes: 10, ano: 2024, titulo: 'Viagem 8º e 9º Itá e Seara' },
+    { dia: 19, mes: 10, ano: 2024, titulo: 'OBMEP' },
+    { dia: 30, mes: 10, ano: 2024, titulo: 'Intercâmbio Santa Rita' }
 ];
 
 // Função para gerar o calendário
