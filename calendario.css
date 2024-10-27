@@ -64,11 +64,6 @@ nav a:hover {
     align-items: center;
 }
 
-@media (max-width: 700px) {
-    nav {
-        flex-direction: column;
-    }
-}
 
 select {
     height: 60px;
@@ -113,6 +108,7 @@ main {
     box-shadow: 1px 1px 5px black;
 }
 
+/* Estilos gerais */
 #calendario {
     width: 100%;
     max-width: 800px;
@@ -121,6 +117,18 @@ main {
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+
+
+/* Estilos para os eventos no calendário */
+tbody td.evento .evento-titulo {
+    font-size: 10px; /* Ajusta o tamanho da fonte dos títulos de eventos */
+}
+
+tbody td:hover {
+    background-color: rgba(28, 28, 53, 0.4);
+}
+
 
 table {
     width: 100%;
@@ -162,37 +170,80 @@ tbody td:hover {
     transition: background-color 0.3s;
 }
 
-/* Media Queries para Responsividade */
+
+/* Estilos para o calendário em dispositivos menores */
 @media (max-width: 768px) {
+    #calendario {
+        width: 90%;
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    thead th {
+        padding: 8px;
+        font-size: 14px;
+    }
+
     tbody td {
-        height: 80px; /* Ajusta a altura das células para telas menores */
-        padding: 10px; /* Menos padding em telas menores */
-        font-size: 14px; /* Ajusta o tamanho da fonte */
+        padding: 8px;
+        font-size: 14px;
+        height: 70px; /* Reduz a altura das células */
     }
 }
 
 @media (max-width: 480px) {
+    #calendario {
+        width: 100%;
+        padding: 5px;
+    }
+
     thead th {
-        font-size: 14px; /* Tamanho da fonte menor para cabeçalhos */
+        font-size: 12px;
+        padding: 6px;
     }
 
     tbody td {
-        font-size: 12px; /* Tamanho da fonte ainda menor */
-    }
-
-    tbody td {
-        height: 60px; /* Ajusta a altura das células ainda mais para dispositivos pequenos */
+        padding: 5px;
+        font-size: 12px;
+        height: 60px; /* Reduz ainda mais para dispositivos muito pequenos */
     }
 }
 
-@media (max-width: 700px) {
-    nav{
-        flex-direction: column;
-        height: 210px;
+#navmobile{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+
+#navmobile{
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(49, 49, 92);
+}
+
+#navmobile nav{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 100%;
+}
+
+#navmobile a{
+
+    width: 100%;
+    height: 100%;
     }
 
-    nav a{
-        margin-top: 2px;
-        
-    }
+#nav{
+    display:none;
+
 }
+
+}
+
