@@ -1,5 +1,5 @@
 // Nome da key onde ficaram guardados os arquivos
-const staticBurgerIo = "cecilia-lotin"
+const staticBurgerIo = "cecilia-lotin-v1"
 
 // Lista de aquivos para ser salvos em cache
 const assets = [

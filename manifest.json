@@ -1,7 +1,7 @@
 {
     "name": "EEB Cecília Lotin",
     "short_name": "Cecília Lotin",
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#253bb6",
     "theme_color": "#253bb6",
